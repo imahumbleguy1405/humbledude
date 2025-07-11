@@ -1,0 +1,107 @@
+/* Background image */
+body {
+  margin: 0;
+  background: #c40000;
+  font-family: 'Impact', sans-serif;
+  overflow-x: hidden;
+}
+ 
+/* Background image styling */
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('DontLookAtMe.png') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.9;
+}
+ 
+/* Logo button */
+.logo-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+ 
+.logo {
+  width: 120px;
+  height: auto;
+  border: 3px solid white;
+  box-shadow: 5px 5px 0 #ff0000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+ 
+.logo:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+ 
+/* Form container */
+form {
+  background-color: #000;
+  color: white;
+  padding: 40px;
+  border: 5px solid white;
+  box-shadow: 10px 10px 0 #ff0000;
+  font-family: 'Impact', sans-serif;
+  width: 400px;
+  margin: 100px auto;
+  transform: skew(-3deg);
+}
+ 
+/* Form inputs */
+input[type=email],
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid white;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+}
+ 
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+ 
+/* Buttons */
+button.cancelbtn,
+button.signupbtn {
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px 5px;
+}
+ 
+button.cancelbtn:hover,
+button.signupbtn:hover {
+  background-color: #ff0000;
+  transform: translateX(5px);
+}
+ 
+/* Form content */
+.container {
+  text-align: left;
+}
+ 
+hr {
+  border: 1px solid white;
+}
+ 
+a {
+  color: dodgerblue;
+  text-decoration: underline;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  .logo-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+    border: 3px solid white;
+    box-shadow: 5px 5px 0 #ff0000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .logo:hover {
+    transform: scale(1.1) rotate(-2deg);
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Lair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-900">
+<a href="persona5.html" class="logo-link">
+  <img src="logo.png" alt="Back to Home" class="logo">
+</a>
+
+
+    <div class="container mx-auto px-4 min-h-screen relative">
+        <!-- Header -->
+        <div class="py-8">
+            <h1 class="text-4xl font-bold text-white bg-black inline-block p-4 transform -rotate-2 border-2 border-yellow-300">
+                Welcome to My Lair
+            </h1>
+        </div>
+
+        <!-- Main Content -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+           
+<div class="bg-black bg-opacity-60 p-6 rounded-lg space-y-6">
+    <p class="text-lg text-white">
+        This site is my personal corner of the web — a space to gather, reflect, and showcase the things that fuel my curiosity and shape who I am.
+    </p>
+    
+    <p class="text-lg text-white">
+        Much like stories of outlaws and rebels who defy expectations, this is my digital sanctuary where I get to explore, create, and leave behind traces of what inspires me most.
+    </p>
+
+    <p class="text-lg text-white">
+        From the games that pull me into their worlds, to the films and narratives that linger in my thoughts long after the credits roll, this site captures the spirit of following your own path and embracing what makes you unique.
+    </p>
+
+    <p class="text-lg text-white">
+        It's not just a collection of interests — it’s a reflection of my mindset, my creative pulse, and the ideals I choose to stand by. Here, individuality matters, and this space celebrates the freedom to be unapologetically yourself.
+    </p>
+</div>
+
+            <!-- Right Column - Wanted Poster -->
+            <div class="relative">
+    <div class="p-4 rounded-lg transform rotate-3"
+         style="background-image: url('realwantedbg.jpg'); background-size: cover; background-position: center;">
+        <div class="bg-black p-2 rounded text-center">
+  <h2 class="text-3xl font-bold text-white">WANTED</h2>
+</div>
+
+
+        <div class="p-2 w-52 h-52 flex justify-center items-center mx-auto rounded"
+             style="background-image: url('bgframe.jpg'); background-size: cover; background-position: center;">
+            <img src="myface.jpg" alt="Profile Image" class="w-48 h-48 object-cover rounded">
+        </div>
+        <div class="mt-4 text-white text-center">
+            <p class="text-2xl font-bold">ALIVE & UNDEFEATED</p>
+            <p class="text-xl">CHRISTIAN ANGELO</p>
+            <p class="text-lg">Bounty: Priceless</p>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Decorative Elements -->
+        <div class="absolute top-0 right-0 -z-10">
+            <img src="decorative background.png" alt="Decorative Background" >
+        </div>
+    </div>
+</body>
+</html>

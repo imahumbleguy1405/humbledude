@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="joker-header">
+  <a href="persona5.html" class="logo-link">
+    <img src="logo.png" alt="Phantom Thieves Logo" class="logo">
+  </a>
+  <img src="jokercutin.png" alt="Joker" id="joker-header-img">
+  <div class="header-text">WELCOME TO MY WEBSITE</div>
+</header>
+
+<div class="background-image"></div>
+<img src="mask.png" alt="Mask" id="mask-drop">
+<a href="login.html" class="back-button">🔙 Login</a>
+<div id="countdown" class="countdown"></div>
+
+
+
+<!-- Main Menu -->
+<div class="menu-container" id="main-menu">
+  <div class="menu-title">MENU</div>
+  <a href="Lab_2 .html" class="menu-button">Lab #2</a>
+  <a href="lab 3.html" class="menu-button">Lab #3</a>
+  <a href="Tamayo_technical 4.html" class="menu-button">Lab #4</a>
+  <a href="Lab5HTML.html" class="menu-button">Lab #5</a>
+  <a href="aboutme.html" class="menu-button">About Me</a>
+</div>
+
+<!-- Music Footer -->
+<div class="music-footer">
+  <div class="controls">
+    <button id="play-btn">▶️ Play</button>
+    <button id="pause-btn">⏸️ Pause</button>
+    <select id="track-selector">
+      <option value="music/Layer Cake.mp3">Layer Cake</option>
+      <option value="music/Beneath the Mask.mp3">Beneath the Mask</option>
+      <option value="music/Tokyo Daylight.mp3">Tokyo Daylight</option>
+      <option value="music/Last Surprise.mp3">Last Surprise</option>
+      <option value="music/Life Will Change.mp3">Life Will Change</option>
+      <option value="music/Mementos_ Upper Area.mp3">Mementos Upper</option>
+      <option value="music/No More What Ifs.mp3">No More What Ifs</option>
+      <option value="music/No More What Ifs -i.mp3">No More What Ifs - Instrumental</option>
+      <option value="music/Royal Days.mp3">Royal Days</option>
+      <option value="music/So Happy World.mp3">So Happy World</option>
+      <option value="music/The Whims of Fate.mp3">The Whims of Fate</option>
+      <option value="music/Colors Flying High.mp3">Colors Flying High</option>
+    </select>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+    <div class="time-display" id="time-display">0:00 / 0:00</div>
+  </div>
+</div>
+
+<audio id="music-player"></audio>
+
+<!-- Cut-in Popup -->
+<div id="popup" class="popup">
+  <img src="" alt="Cut-in" class="popup-image">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+  <a href="persona5.html" class="logo-link">
+  <img src="logo.png" alt="Phantom Thieves Logo" class="logo">
+</a>
+  <h2><mark>Registration Form</mark></h2>
+ 
+  <form action="/submit" method="post">
+    <label for="firstname">First Name:</label><br>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+ 
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+ 
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+ 
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" required><br><br>
+ 
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+ 
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+ 
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br>
+ 
+    <input type="text" id="Other" name="Other" placeholder="If Other, specify"><br><br>
+ 
+    <label>SDG(s) of Interest:</label><br>
+    <input type="checkbox" id="sdg1" name="sdgs" value="No Poverty">
+    <label for="sdg1">1. No Poverty</label><br>
+ 
+    <input type="checkbox" id="sdg2" name="sdgs" value="Zero Hunger">
+    <label for="sdg2">2. Zero Hunger</label><br>
+ 
+    <input type="checkbox" id="sdg3" name="sdgs" value="Good Health and Well-being">
+    <label for="sdg3">3. Good Health and Well-being</label><br>
+ 
+    <input type="checkbox" id="sdg4" name="sdgs" value="Quality Education">
+    <label for="sdg4">4. Quality Education</label><br>
+ 
+    <input type="checkbox" id="sdg5" name="sdgs" value="Gender Equality">
+    <label for="sdg5">5. Gender Equality</label><br>
+ 
+    <!-- Add others similarly if needed -->
+ 
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+ 
+</body>
+</html>

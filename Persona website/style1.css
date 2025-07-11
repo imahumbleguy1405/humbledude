@@ -1,0 +1,99 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3273a8;
+	background-image: url("sdgs.png");
+	background-repeat: no-repeat;
+	background-position: center;
+    margin: 0;
+    padding: 20px;
+}
+ 
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+}
+ 
+/* Form container styling */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ 
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+}
+ 
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+ 
+/* Radio and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+ 
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+ 
+/* Add spacing between checkboxes and labels */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.logo-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  width: 120px;
+  border: 3px solid black;
+  background: #ff0000;       
+  padding: 5px;               
+  box-shadow: 5px 5px 0 #ff0000;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
+
+ 
